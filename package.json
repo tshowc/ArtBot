@@ -1,0 +1,34 @@
+{
+  "name": "ArtBot",
+  "version": "1.0.0",
+  "description": "Tweets Poetry",
+  "main": "config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "cheerio": "^0.12.4",
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.4.4",
+    "grunt-contrib-jshint": "^0.6.5",
+    "grunt-docco2": "^0.1.5",
+    "request": "^2.27.0",
+    "underscore.deferred": "^0.4.0",
+    "underscore": "^1.5.2",
+    "twit": "^1.1.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tshowc/ArtBot.git"
+  },
+  "author": "TC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tshowc/ArtBot/issues"
+  },
+  "homepage": "https://github.com/tshowc/ArtBot"
+}
