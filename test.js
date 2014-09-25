@@ -19,19 +19,11 @@ function tweet(){
 		var arrPoem = poem.split("\n");
 		var i = 0;
 		while ( i < 10){
-			if (arrPoem[i].indexOf(" ") == 0)
-			{
-				console.log("SKIP");
-				linePoem[i] = arrPoem[i+1];
-				i++;
-			}
-			else{
 			
-				linePoem[i] = arrPoem[i];
-			//	console.log(arrPoem[i]);
-	//			console.log(linePoem[i]);
-				i++;
-			}
+			linePoem[i] = arrPoem[i];
+		//	console.log(arrPoem[i]);
+		//	console.log(linePoem[i]);
+			i++;
 		}
 	//	console.log('Source:', url + randNum);
 		//console.log(poem);
